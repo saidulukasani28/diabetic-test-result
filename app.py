@@ -7,10 +7,9 @@ from streamlit_option_menu import option_menu
 
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
     
-# Diabetes Prediction Page
-if (selected == 'Diabetes Prediction'):
+
     
-    # page title
+ 
     st.title('Diabetes Prediction using ML')
     
     
