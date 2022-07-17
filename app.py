@@ -6,12 +6,7 @@ from streamlit_option_menu import option_menu
 # loading the saved models
 
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
-    
-
-    
- 
     st.title('Diabetes Prediction using ML')
-    
     
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
