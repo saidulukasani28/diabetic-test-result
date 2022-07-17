@@ -1,2 +1,0 @@
-# diabetic-test-result
-deployment
